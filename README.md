@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+Welcome to My Portfolio Project
+Project Overview
 
-## Project info
+This project is my personal web-development portfolio — a modern, responsive, and fully interactive website designed to showcase my skills, experience, and professional journey as a Full-Stack Web Developer.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The homepage features a clean dark-themed UI with highlighted accent colors, smooth animations, and a strong focus on readability and user experience. It introduces who I am, what I do, and provides quick access to key sections such as About Me, Skills, Services, Certifications, and Contact.
 
-## How can I edit this code?
+A glowing circular frame displays my profile picture, giving the interface a polished and personal visual identity. The website is built to be fast, accessible, and fully responsive for mobile and desktop users.
 
-There are several ways of editing your application.
+Live Website
 
-**Use Lovable**
+🌐 URL: https://baymedit.lovable.app
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built using a modern and efficient front-end stack:
 
-**Use your preferred IDE**
+Vite – Ultra-fast development and optimized builds
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+TypeScript – Strong typing for cleaner, safer, and scalable code
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React – Component-based architecture for an interactive user experience
 
-Follow these steps:
+shadcn-ui – Reusable, customizable UI components
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tailwind CSS – Utility-first CSS framework for responsive and beautiful styling
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Key Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+✨ Modern and clean UI with premium design
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+⚡ High performance thanks to Vite and optimized React components
 
-**Edit a file directly in GitHub**
+📱 Fully responsive across all devices
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🎨 Custom animations and glowing elements for a unique identity
 
-**Use GitHub Codespaces**
+🧩 Organized sections: About, Services, Skills, Certifications, Contact
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📂 Modular and scalable code architecture
 
-## What technologies are used for this project?
+🔗 Integrated social links and call-to-action buttons
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
