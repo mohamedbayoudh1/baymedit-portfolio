@@ -1,4 +1,5 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -73,10 +74,12 @@ const HeroSection = () => {
           <div className="order-1 lg:order-2 flex justify-center animate-scale-in">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-primary p-2 animate-glow-pulse">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-navy-light to-card overflow-hidden flex items-center justify-center">
-                  <span className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary">
-                    MB
-                  </span>
+                <div className="w-full h-full rounded-full overflow-hidden">
+                  <img 
+                    src={profilePhoto} 
+                    alt="Mohamed Bayoudh" 
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </div>
               {/* Decorative dots */}
