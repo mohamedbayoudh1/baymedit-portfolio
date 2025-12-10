@@ -39,6 +39,8 @@ Key Features
 
 📂 Modular and scalable code architecture
 
+🔗 Integrated social links and call-to-action buttons
+
 Project Screenshots
 
 Below are a few captured screens from my portfolio to showcase the design, layout, and user experience of the project. These screenshots highlight the modern UI, responsive structure, and visual identity of the website.
@@ -52,5 +54,5 @@ Below are a few captured screens from my portfolio to showcase the design, layou
 
 
 
-🔗 Integrated social links and call-to-action buttons
+
 
