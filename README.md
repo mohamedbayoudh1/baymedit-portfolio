@@ -39,5 +39,18 @@ Key Features
 
 📂 Modular and scalable code architecture
 
+Project Screenshots
+
+Below are a few captured screens from my portfolio to showcase the design, layout, and user experience of the project. These screenshots highlight the modern UI, responsive structure, and visual identity of the website.
+
+<img width="1678" height="822" alt="Capture d&#39;écran 2025-12-10 172007" src="https://github.com/user-attachments/assets/bf8eeb71-9375-4a13-b619-bdd95ef159a5" />
+<img width="1914" height="945" alt="Capture d&#39;écran 2025-12-10 172246" src="https://github.com/user-attachments/assets/776bf9df-8e55-4555-a0bc-132008b0e667" />
+<img width="1919" height="948" alt="Capture d&#39;écran 2025-12-10 172300" src="https://github.com/user-attachments/assets/69b5b89c-6b0a-418c-95e3-54839ebbee57" />
+<img width="1918" height="931" alt="Capture d&#39;écran 2025-12-10 172317" src="https://github.com/user-attachments/assets/ea66568a-7092-4ddc-99f6-ecd7931c7a92" />
+
+
+
+
+
 🔗 Integrated social links and call-to-action buttons
 
