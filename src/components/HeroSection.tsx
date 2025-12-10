@@ -46,7 +46,7 @@ const HeroSection = () => {
             {/* Social Links */}
             <div className="flex gap-4 mt-8 justify-center lg:justify-start animate-fade-in" style={{ animationDelay: "0.5s" }}>
               <a
-                href="https://github.com"
+                href="https://github.com/mohamedbayoudh1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mohamedbayoudh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:mohamed.bayoudhit@gmail.com"
                 className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
               >
                 <Mail size={20} />

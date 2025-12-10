@@ -38,27 +38,27 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* About Text */}
           <div className="space-y-6">
-            <h3 className="text-xl md:text-2xl font-semibold text-foreground">
-              Why I'm The Best Choice to Partner With
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Although I am new to the field of web development, I bring a combination 
-              of flexibility, inquisitiveness and an eagerness to learn to the table. 
-              I'm finding success within fast-paced environments for web development, 
-              turning obstacles into opportunities along the way.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              As a web developer with maximum motivation, I always look for the next 
-              challenge to build, optimise and improve upon. My true passion lies with 
-              creating new, modern, scalable and user-centred applications designed 
-              for the web.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              I am committed to lifelong learning and appear to be committed to becoming 
-              a successful member of the web developer community. I don't just want to 
-              become a web developer; I want to become a trusted partner as I build my 
-              own web development business.
-            </p>
+          <h3 className="text-xl md:text-2xl font-semibold text-foreground">
+            Why I'm The Best Choice to Partner With
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            I bring a combination of adaptability, technical curiosity, and strong problem-solving 
+            skills that make me a reliable partner for any modern web project. I thrive in fast-paced 
+            environments, consistently turning challenges into opportunities for smarter and more 
+            efficient solutions.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            As a dedicated web developer, I'm always pushing to build, optimize, and elevate 
+            applications—focusing on modern, scalable, and user-centered designs that deliver 
+            real value. I take pride in writing clean code, improving performance, and ensuring 
+            a seamless experience on every project I touch.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            I am committed to continuous growth and to becoming not just a capable developer, 
+            but a long-term partner you can trust. My goal is always the same: deliver high-quality 
+            work, communicate clearly, and contribute meaningfully to every team or client I 
+            collaborate with.
+          </p>
           </div>
 
           {/* Feature Cards */}
