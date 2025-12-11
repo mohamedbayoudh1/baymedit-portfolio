@@ -1,12 +1,12 @@
 const skills = [
-  { name: "JavaScript / React", percentage: 90 },
+  { name: "JavaScript / TypeScript / React", percentage: 90 },
   { name: "HTML / CSS", percentage: 95 },
   { name: "Node.js", percentage: 85 },
   { name: "Python", percentage: 80 },
   { name: "PHP / Laravel", percentage: 75 },
-  { name: "DevOps / AWS", percentage: 70 },
-  { name: "Docker / Kubernetes", percentage: 75 },
-  { name: "Database (SQL / NoSQL)", percentage: 80 },
+  { name: "DevOps", percentage: 70 },
+  { name: "Docker", percentage: 75 },
+  { name: "Database (SQL / NoSQL / PostgreSQL)", percentage: 80 },
 ];
 
 const SkillsSection = () => {
