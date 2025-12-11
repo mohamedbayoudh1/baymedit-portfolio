@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -40,8 +40,8 @@ const Footer = () => {
             </a>
           </div>
 
-          <p className="text-muted-foreground text-sm flex items-center gap-1">
-            Made with <Heart size={14} className="text-primary" /> by Mohamed Bayoudh
+          <p className="text-muted-foreground text-sm">
+            © {new Date().getFullYear()} — Designed & Developed by <span className="font-medium">Mohamed Bayoudh</span>
           </p>
         </div>
       </div>
