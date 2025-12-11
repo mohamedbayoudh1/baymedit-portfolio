@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "@emailjs/browser";
 
 const contactInfo = [
   {
@@ -28,6 +29,7 @@ const contactInfo = [
 
 const ContactSection = () => {
   const { toast } = useToast();
+  const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -35,13 +37,37 @@ const ContactSection = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon!",
-    });
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    setIsLoading(true);
+
+    try {
+      await emailjs.send(
+        "service_m3nvD54C",
+        "template_ekdn546",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "xwf5_yLKGEhj7yeBI"
+      );
+
+      toast({
+        title: "Message Sent!",
+        description: "Thank you for reaching out. I'll get back to you soon!",
+      });
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -130,9 +156,9 @@ const ContactSection = () => {
               rows={6}
               className="bg-card border-border focus:border-primary resize-none"
             />
-            <Button type="submit" variant="hero" size="lg" className="w-full sm:w-auto">
+            <Button type="submit" variant="hero" size="lg" className="w-full sm:w-auto" disabled={isLoading}>
               <Send size={18} />
-              Send Message
+              {isLoading ? "Sending..." : "Send Message"}
             </Button>
           </form>
         </div>
