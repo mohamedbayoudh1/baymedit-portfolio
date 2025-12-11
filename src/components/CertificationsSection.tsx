@@ -116,33 +116,6 @@ const CertificationsSection = () => {
           ))}
         </div>
 
-        {/* Cloud Skills Section */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="p-8 rounded-xl bg-card border border-primary/30 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
-            <div className="relative z-10">
-              <h3 className="text-xl font-semibold text-foreground mb-4">
-                Cloud Skills for Web Development
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                AWS (Amazon Web Services) is the primary platform I use to develop Cloud-based 
-                web applications. From creating Amazon EC2 servers to managing containerization 
-                with Docker/ECS/EKS, I leverage AWS Cloud Services to build scalable and 
-                reliable environments for web development.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                {["AWS", "EC2", "Docker", "ECS", "EKS", "S3", "Lambda"].map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-4 py-2 rounded-lg bg-secondary text-foreground text-sm font-medium"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
