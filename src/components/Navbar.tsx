@@ -48,7 +48,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="hero" size="sm" asChild>
-              <a href="#contact">Hire Me</a>
+              <a href="https://www.upwork.com/freelancers/mohamedbayoudh" target="_blank" rel="noopener noreferrer">Hire Me</a>
             </Button>
           </div>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="hero" className="w-full mt-4" asChild>
-              <a href="#contact" onClick={() => setIsOpen(false)}>
+              <a href="https://www.upwork.com/freelancers/mohamedbayoudh" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                 Hire Me
               </a>
             </Button>

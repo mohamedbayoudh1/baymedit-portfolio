@@ -36,7 +36,7 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <Button variant="hero" size="lg" asChild>
-                <a href="#contact">Hire Me</a>
+                <a href="https://www.upwork.com/freelancers/mohamedbayoudh" target="_blank" rel="noopener noreferrer">Hire Me</a>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
                 <a href="#about">About Me</a>
